@@ -130,7 +130,7 @@ This helps detect hidden attacks.
 
 This section explains how to set up and run IntelliWAF in a simple lab environment.
 
-### 🔧 Requirements
+### Requirements
 
 - Python 3.x
 - mitmproxy
@@ -162,4 +162,8 @@ mitmdump -s IntelliWAF.py  -p 8080 --listen-host 127.0.0.1
 - port: 8080
 - Do for both HTTP & HTTPS
 
-### Test Attacks on Metasploitable ip :)
+### Step 5:Test Attacks on Metasploitable ip :)
+```bash
+#Visit
+192.168.***.***/dvwa
+```
