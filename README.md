@@ -7,7 +7,7 @@ It monitors requests and blocks malicious traffic before it reaches the server.
 
 Checks every incoming HTTP/HTTPS request and:
 
-- Detects common web attacks
+- Detects common web attacks OWASP:https://owasp.org/www-project-top-ten/
 - Blocks attackers automatically
 - Limits too many requests from one IP
 - Stops brute-force login attempts
