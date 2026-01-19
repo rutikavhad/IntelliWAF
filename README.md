@@ -2,7 +2,7 @@
 
 IntelliWAF is a simple **Web Application Firewall (WAF)** written in Python using **mitmproxy**.  
 It monitors requests and blocks malicious traffic before it reaches the server.
-<img src="img/block_page_cmd.png" width="400" height="500" />
+<img src="img/block_page_cmd.png" width="500" height="500" />
 
 ## What This Project Does
 
@@ -15,7 +15,8 @@ Checks every incoming HTTP/HTTPS request and:
 - Logs all traffic into a CSV file
 
 ## Attacks It Can Detect
-<img src="img/display_log.png" width="400" height="300" />
+
+<img src="img/display_log.png" width="500" height="500" />
 
 ### Web Attacks
 - SQL Injection
@@ -58,7 +59,9 @@ Checks every incoming HTTP/HTTPS request and:
 ## Logging System
 
 All requests are saved in **`traffic_events.csv`** with:
-<img src="img/display_cmd.png" width="400" height="300" />
+
+<img src="img/display_cmd.png" width="500" height="500" />
+
 - Time and date
 - Client IP address
 - Request method
@@ -100,10 +103,12 @@ This helps detect hidden attacks.
 - Collapses extra spaces, tabs, and new lines
 
 ## Live Testing Using Metasploitable
-<img src="img/meta.png" width="400" height="300" />
+
+<img src="img/meta.png" width="500" height="500" />
 
 # Web Page
-<img src="img/cmd_test.png" width="400" height="300" />
+
+<img src="img/cmd_test.png" width="500" height="500" />
 
 - IntelliWAF was tested in a live attack environment using Metasploitable, a deliberately vulnerable virtual machine used for security testing.
 - This allows real attacks to be generated and verified in real time.
@@ -162,13 +167,13 @@ ifconfig #To get ip of this machine
 ```bash
 mitmdump -s IntelliWAF.py  -p 8080 --listen-host 127.0.0.1
 ```
-<img src="mitm_trminal.png" width="400" height="300" />
+<img src="mitm_trminal.png" width="500" height="500" />
 ### Step 4: Setup Proxy in Browser
 
 - ip: 127.0.0.1
 - port: 8080
 - Do for both HTTP & HTTPS
-<img src="img/proxy.png" width="400" height="300" />
+<img src="img/proxy.png" width="500" height="500" />
 
 ### Step 5:Test Attacks on Metasploitable ip :)
 ```bash
