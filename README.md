@@ -2,7 +2,9 @@
 
 IntelliWAF is a simple **Web Application Firewall (WAF)** written in Python using **mitmproxy**.  
 It monitors requests and blocks malicious traffic before it reaches the server.
+<p align="center">
 <img src="img/block_page_cmd.png" width="500" height="500" />
+</p>
 
 ## What This Project Does
 
