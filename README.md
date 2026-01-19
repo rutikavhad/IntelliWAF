@@ -176,6 +176,7 @@ mitmdump -s IntelliWAF.py  -p 8080 --listen-host 127.0.0.1
 <p align="center">
   <img src="img/mitm_trminal.png" width="700" height="700" />
 </p>
+
 ### Step 4: Setup Proxy in Browser
 
 - ip: 127.0.0.1
@@ -185,6 +186,7 @@ mitmdump -s IntelliWAF.py  -p 8080 --listen-host 127.0.0.1
 <p align="center">
   <img src="img/proxy.png" width="700" height="700" />
 </p>
+
 ### Step 5:Test Attacks on Metasploitable ip :)
 ```bash
 #Visit
