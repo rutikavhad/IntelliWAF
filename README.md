@@ -181,6 +181,7 @@ mitmdump -s IntelliWAF.py  -p 8080 --listen-host 127.0.0.1
 - ip: 127.0.0.1
 - port: 8080
 - Do for both HTTP & HTTPS
+
 <p align="center">
 <img src="img/proxy.png" width="700" height="700" />
 </p>
