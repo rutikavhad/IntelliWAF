@@ -187,7 +187,7 @@ mitmdump -s IntelliWAF.py  -p 8080 --listen-host 127.0.0.1
   <img src="img/proxy.png" width="700" height="700" />
 </p>
 
-### Step 5:Test Attacks on Metasploitable ip :)
+### Step 5:Test Attacks on Metasploitable *IP* :)
 ```bash
 #Visit
 192.168.***.***/dvwa
