@@ -17,9 +17,9 @@ Checks every incoming HTTP/HTTPS request and:
 - Logs all traffic into a CSV file
 
 ## Attacks It Can Detect
-
-<img src="img/display_log.png" width="500" height="500" />
-
+<p align="center">
+<img src="img/display_log.png" width="700" height="700" />
+</p>
 ### Web Attacks
 - SQL Injection
 - Cross-Site Scripting (XSS)
@@ -62,7 +62,9 @@ Checks every incoming HTTP/HTTPS request and:
 
 All requests are saved in **`traffic_events.csv`** with:
 
-<img src="img/display_cmd.png" width="500" height="500" />
+<p align="center">
+<img src="img/display_cmd.png" width="700" height="700" />
+</p>
 
 - Time and date
 - Client IP address
@@ -106,12 +108,14 @@ This helps detect hidden attacks.
 
 ## Live Testing Using Metasploitable
 
-<img src="img/meta.png" width="500" height="500" />
+<p align="center">
+<img src="img/meta.png" width="700" height="700" />
+</p>
 
 # Web Page
-
-<img src="img/cmd_test.png" width="500" height="500" />
-
+<p align="center">
+<img src="img/cmd_test.png" width="700" height="700" />
+</p>
 - IntelliWAF was tested in a live attack environment using Metasploitable, a deliberately vulnerable virtual machine used for security testing.
 - This allows real attacks to be generated and verified in real time.
 
@@ -169,13 +173,17 @@ ifconfig #To get ip of this machine
 ```bash
 mitmdump -s IntelliWAF.py  -p 8080 --listen-host 127.0.0.1
 ```
-<img src="mitm_trminal.png" width="500" height="500" />
+<p align="center">
+<img src="mitm_trminal.png" width="700" height="700" />
+</p>
 ### Step 4: Setup Proxy in Browser
 
 - ip: 127.0.0.1
 - port: 8080
 - Do for both HTTP & HTTPS
-<img src="img/proxy.png" width="500" height="500" />
+<p align="center">
+<img src="img/proxy.png" width="700" height="700" />
+</p>
 
 ### Step 5:Test Attacks on Metasploitable ip :)
 ```bash
