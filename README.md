@@ -144,7 +144,7 @@ This helps detect hidden attacks.
  | --- Display_Attacks.ibynb #Display logs
  
 
- ## How to Setup SentinelFlow
+ ## How to Set-up IntelliWAF
 
 This section explains how to set up and run IntelliWAF in a simple lab environment.
 
